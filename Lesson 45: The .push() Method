@@ -1,0 +1,14 @@
+// the .push() method is used to add additional elements to your array. Here is an example of what it looks like:
+const itemTracker = ['item 0', 'item 1', 'item 2'];
+
+itemTracker.push('item 3', 'item 4');
+
+console.log(itemTracker); 
+// Output: ['item 0', 'item 1', 'item 2', 'item 3', 'item 4'];
+
+//The practice
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+
+chores.push ('clean bathroom', 'clean room');
+
+console.log(chores);
