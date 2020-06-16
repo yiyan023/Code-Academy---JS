@@ -1,0 +1,27 @@
+// 1. The .shift() method removes the first item in the array
+// 2. The .unshift() method adds an item in the beginning of the array
+// 3. The .slice() methods restricts the array, so only a few items will show. It will be written like this
+
+console.log(array.method(first, last+1));
+// the first and last+1 are represented by the index numbers assigned in the array
+
+// 4. The .indexOf() method allows you to print the index value of an item
+
+// Practice: 
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift();
+
+console.log(groceryList);
+
+groceryList.unshift('popcorn');
+
+console.log(groceryList);
+
+console.log(groceryList.slice(1, 4));
+
+console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta');
+
+console.log(pastaIndex);
