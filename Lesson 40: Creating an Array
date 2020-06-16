@@ -1,0 +1,3 @@
+const hobbies = ['badminton', 'studying', 'league of legends'];
+
+console.log(hobbies);
