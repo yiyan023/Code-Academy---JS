@@ -1,0 +1,17 @@
+//file: 2-airplane.js
+
+module.exports = {
+  myAirplane: "CloudJet", 
+  displayAirplane: function() {
+    return this.myAirplane;
+  }
+};
+
+//file: 2-missionControl.js
+
+module.exports = {
+  myAirplane: "CloudJet", 
+  displayAirplane: function() {
+    return this.myAirplane;
+  }
+};
