@@ -1,0 +1,8 @@
+//require() is used to import another file
+
+const Airplane = require('./1-airplane.js'); //./1-airplane.js is another file
+function displayAirplane() {
+  console.log(Airplane.myAirplane);
+}
+
+displayAirplane();
